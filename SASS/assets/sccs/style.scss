@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{  
+    padding-bottom: 48px 0;
+    background-color: #212529;
+   .head-line{ 
+    padding: 8px 0;
+
+    .container{
+        .row{
+            .logo{ 
+                color: white;
+
+            }
+            .nav-links{ 
+                display: flex;
+                .hamburger{
+                    color: gray;
+                    border: 1px solid #94999e;
+                    padding: 0.25rem 0.75rem;
+                    display: none;
+                i{
+                    font-size: 26px;
+                }   
+                    }
+                    
+                }
+                ul{ display: flex;
+                    transform: translateX(300px);
+                   
+                    li{
+                        padding: 8px;
+                        color: white;
+                        .white{
+                            color: white !important;
+                           }
+                        a{ 
+                           text-decoration: none;
+                           color: #94999e;
+                           &:hover{
+                            color: white;
+                           }
+                        }
+                        
+                    
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+   }
+   .intro{ 
+        padding: 10% 30%;
+
+     .text-center{
+        color: white;
+        h1{
+
+        }
+        p{
+
+        }
+     }
+   }
+
+
+@media screen and (max-width:992px)  
+{ 
+    .nav-links ul li{ 
+        display: none; 
+    }   
+    .hamburger{
+        display: flex !important;
+    }
+    
+  
+} 
+
+main{
+    
+    .featureds { 
+        padding: 10% 0;
+        
+         .building-i{  
+            
+                width: 50px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 32px;
+                border-radius: 4px;
+                margin-bottom: 10px;
+                i{
+                    
+                    color: azure    ;
+                }
+            } 
+            h2{
+               font-weight: bold;
+               font-size: 28px;
+            }
+        }
+        .pay-cards{ 
+            background-color: azure;
+
+           .title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10% 0; 
+            h2{
+                font-weight: bold;
+                font-size: 28px;
+            }
+           }
+
+         .price{
+            font-size: 55px;
+            font-weight: bold;
+         }
+         .card{
+            padding: 5%;
+         }
+        }
+            
+    }
